@@ -1,5 +1,5 @@
 <h1 align="center">
-  Creative Notes App
+  Flutter Notes App
 </h1>
 <p align="center">
   <a href="#key-features">Key Features</a> •
