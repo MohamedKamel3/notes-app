@@ -6,7 +6,7 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
-<img src="Screenshot 2025-04-03 215835.png" alt="Main Screenshot"></img>
+<img src="assets/images/Screenshot 2025-04-03 215835.png" alt="Main Screenshot"></img>
 
 ## Key Features
 
