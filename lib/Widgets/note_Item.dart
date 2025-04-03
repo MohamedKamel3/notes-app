@@ -1,7 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:notes_app/DataBase/note_model.dart';
 import 'package:notes_app/DataBase/notes_provider.dart';
 import 'package:notes_app/Pages/edit_note_view.dart';
 import 'package:notes_app/Widgets/icon_button_with_dialog.dart';
@@ -31,11 +29,11 @@ class NoteItem extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 16),
         padding: const EdgeInsets.only(left: 16, top: 24, bottom: 24),
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           borderRadius: BorderRadius.all(
             Radius.circular(8),
           ),
-          color: Color(0xffffcb7a),
+          color: Color(note['color']),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.end,

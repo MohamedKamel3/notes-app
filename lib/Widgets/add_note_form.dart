@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/DataBase/note_model.dart';
 import 'package:notes_app/DataBase/notes_provider.dart';
+import 'package:notes_app/Widgets/get_random_note_color.dart';
 import 'package:notes_app/widgets/custom_button.dart';
 import 'package:notes_app/widgets/custom_text_field.dart';
 import 'package:provider/provider.dart';
@@ -47,7 +48,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
                     title: title!,
                     desc: desc!,
                     date: DateTime.now().toString().substring(0, 10),
-                    color: 0xffa1a1a1,
+                    color: getRandomNoteColor(),
                   ));
                   if (mounted) Navigator.pop(context);
                 } catch (e) {
