@@ -1,81 +1,89 @@
-
 <h1 align="center">
-  Flutter Notes App
+  Creative Notes App
 </h1>
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
 </p>
 
- <img src="assets/images/Screenshot 2025-04-03 215835.png" alt="Main" ></img>
-
-
+<img src="Screenshot 2025-04-03 215835.png" alt="Main Screenshot"></img>
 
 ## Key Features
 
-* Profile Header Section:
-  - Profile picture with circular avatar
-  - Post, follower, and following counts
-  - Bio description section
-  - Followed-by information
-  - Action buttons (Following, Message, Add)
+* Hierarchical Note Organization:
+  - Create nested notes with unlimited depth
+  - Visual tree structure for easy navigation
+  - Collapsible sections for better organization
 
-* Story Highlights:
-  - Horizontal scrollable list of story circles
-  - Each with a highlight label
+* Note Metadata:
+  - Automatic date tagging for each note
+  - Timestamp display for tracking updates
+  - Simple markdown-style formatting
 
-* Content Grid:
-  - 3-column grid layout for posts
-  - Responsive design that works on different screen sizes
-  - Placeholder images for demonstration
+* Intuitive Interface:
+  - Clean, distraction-free writing environment
+  - Keyboard-friendly navigation
+  - Minimalist design focused on content
 
-* Tab Navigation:
-  - Posts grid view
-  - Tagged content placeholder
-  - Saved content placeholder
+* Quick Actions:
+  - Rapid note creation with shortcuts
+  - Easy indentation controls
+  - Fast date-stamping functionality
 
-  
 ## Packages Used
 
-* Flutter Material Components:
-  - Core UI elements (AppBar, GridView, TabBar, etc.)
-  - Basic widgets (Text, Image, Icon, etc.)
+* Core Technologies:
+  - Flutter Framework (cross-platform compatibility)
+  - Dart programming language
+  - Material Design components
 
-* Other Package:
-  - cupertino_icons - Provides iOS-style icons
-  - http - For API calls to fetch profile data and posts
-  - ionicons - Additional icon set for more UI options
-  - redacted - For placeholder loading effects
-  - video_player - For video post support (reels/IGTV)
-
+* Additional Packages:
+  - flutter_markdown - For rich text formatting
+  - provider - State management
+  - intl - Date/time formatting
+  - shared_preferences - Local storage
+  - flutter_slidable - Interactive note actions
 
 ## How To Use
 
 * Installation:
-  - Ensure you have Flutter installed on your system
-  - Create a new Flutter project
-  - Replace the contents of the lib/ folder with the provided code
-  - add all packages
-  - Run flutter pub get to install dependencies
-  - add your API Key in (Services/insta_api.dart)
-  - Run the app with flutter run
+  1. Ensure Flutter SDK is installed (v3.0+ recommended)
+  2. Clone the repository: `git clone [repo-url]`
+  3. Navigate to project: `cd creative_notes_app`
+  4. Install dependencies: `flutter pub get`
+  5. Run the app: `flutter run`
 
+* Basic Usage:
+  - Tap `+` to create a new main note
+  - Press Tab/indent button to create sub-notes
+  - Swipe left on any note for actions (delete, archive)
+  - Long-press to drag and reorganize notes
 
-##Navigation
+* Advanced Features:
+  - Prefix with `-` for bullet points
+  - Add date automatically with `/date` shortcut
+  - Use `#tag` for categorization (shown in screenshot)
+  - Pin important notes to top with star icon
 
-* Profile Screen:
-  - The main screen shows the user profile
-  - Top app bar with profile name and menu button
+## Navigation
 
-* Content Tabs:
-  - Tap the grid icon to view posts
-  - Tap the person icon to view tagged content (placeholder)
-  - Tap the bookmark icon to view saved content (placeholder)
+* Main Screen:
+  - Vertical list of all top-level notes
+  - Expand/collapse with arrow icons
+  - Search bar at top (hidden in current version)
 
-* Story Highlights:
-  - Swipe horizontally to view all story highlights
-  - Tap on a highlight to view (functionality not implemented in this basic version)
+* Note Actions:
+  - Swipe right to complete/check-off
+  - Swipe left for delete/archive
+  - Tap and hold to drag to new position
 
+* Settings:
+  - Access via gear icon in top-right
+  - Toggle dark/light mode
+  - Change default date format
+  - Export notes as text/markdown
+ 
+  
 ## Support
 
 <a href="https://buymeacoffee.com/mohamedmkaj" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
