@@ -3,6 +3,7 @@
 </h1>
 <p align="center">
   <a href="#key-features">Key Features</a> •
+  <a href="#Packages-Used">Packages Used</a> •
   <a href="#how-to-use">How To Use</a> •
 </p>
 
